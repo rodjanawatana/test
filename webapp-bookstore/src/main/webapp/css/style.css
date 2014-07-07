@@ -1,0 +1,92 @@
+body {
+	font-family: 'Josefin Sans';
+	width: 60%;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #ff6928;
+}
+
+h1 {
+	font-size: 43px;
+	color: #993300;
+}
+
+h2 {
+	color: #993300;
+}
+
+table {
+	border-collapse:collapse;
+	font-family:verdana;
+}
+
+table#book-list {
+	width: 100%;
+}
+
+table#book-list th{
+	text-align: center;
+}
+
+th {
+	border: 1px solid silver;
+	font-size: 10pt;
+	text-align: left;
+	background: seashell;
+	font-family: 'Open Sans';
+}
+
+td {
+	border:1px solid silver;
+	font-size:10pt;
+}
+
+td, th {
+	padding:0.3em 0.7em;
+}
+
+img {
+	float: left;
+	margin-right: 12px;
+}
+
+.button {
+	text-align: right;
+	border: none;
+}
+
+.josefin-sans {
+	font-family: 'Josefin Sans';
+	font-size: 16px;
+	
+}
+
+#user-info {
+	text-align: right;
+}
+
+.book-title {
+	font-weight: bold;	
+	font-size: 16px;
+	color: #008080;
+}
+
+.error {
+	color: red;
+}
+
+.search-box {
+	margin-bottom: 10px;
+}
+
+[readonly] {
+	border-style: none;
+}
